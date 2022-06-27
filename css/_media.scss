@@ -1,0 +1,38 @@
+@media (max-width: 1130px) {
+    .blocks__content {
+        flex-wrap: wrap;
+        flex: 1 1;
+    }
+
+    .content__body {
+        max-width: none;
+    }
+}
+
+@media (max-width: 591px) {
+    .name__backtitle {
+        display: none;
+    }
+
+    .titles__title-mini {
+        display: block;
+    }
+
+    .titles__title {
+        display: none;
+    }
+
+    .top-menu__logo {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .icon-menu {
+        display: block;
+    }
+
+    .top-menu__body {
+        display: none;
+    }
+}
